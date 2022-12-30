@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header li{
+    list-style-type: none;
+    display: inline;
+    margin:0 40px ; 
+    color: #0F0F0F;
+    font-size: 18px;
+}
+nav a{
+    margin: 0  60px;
+    
+}
+
+.logo{
+    width: 99px;
+    height: 35px;
+    margin-left: 52px;
+}
+.banner-one{
+    width: 100%;
+    height: 600px;
+    background-image: url("/images/shutterstock_528660739\ \(1\).png");
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    /* justify-content: ; */
+}
+.truckbg{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+}
+.leftside-bone,.rightside-bone{
+    flex: 1;
+   
+    height: 400px;
+    /* background-color: bisque; */
+}
+.rightside-bone{
+    height: 600px;
+    /* background-color: black; */
+}
+.rightsidepic-bone{
+    position: absolute;
+    width: 246px;
+    margin-top: 217px;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+.truckinglorem{
+    margin-left: 105px;
+    width: 320px;
+    height: 60px;
+    /* background-color: aqua; */
+}
+.truckinglorem .heading{
+    color: #FFFFFF;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: capitalize;
+ 
+}
+.easilyallows{
+    height: 90px;
+    width: 360px;
+    /* background-color: brown; */
+    margin-left: 105px;
+    line-height: 5px;
+}
+.afeasilyaloows{
+    font-family: 'Nunito';
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 17px;
+}
+.get-started{
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 105px;
+    width: 170px;
+    height: 55px;
+    /* background-color: chartreuse; */
+    border-color: #FFFFFF;
+    border-style: solid;
+    color: #FFFFFF;
+}
+
+.banner-two{
+    width: 100%;
+    height: 600px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftside-btwo{
+   
+    width: 371px;
+    height: 500px;
+    background: #F4F4F4;
+}
+.rightside-btwo{
+   
+    width: 560px;
+    height: 500px;
+
+    background-color: cornsilk;
+}
+.withphone{
+    width: 381px;
+    height: 459px;
+    padding: 64px 40px 40px 64px;
+    margin-top: 79px;
+    margin-left: 45px;
+}
+#second{
+    color: aqu;
+}
+.rightside-btwo h3{
+    text-align: center;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    color: #070707;
+    margin-top: 150px;
+}
+.rightside-btwo h6{
+    font-size: 14px;
+    font-family: 'Nunito';
+    font-style: normal;
+    line-height: 24px;
+    color: #020202;
+    text-transform: capitalize;
+    padding-top: 10px;
+    margin-left: 96px;
+}
+.rightside-btwo h5{
+    font-size: 13px;
+    padding-top: 10px;
+    margin-left: 96px;
+    text-decoration: underline 
+    #1374F2 3px;
+}
